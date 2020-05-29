@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c58c2fe456cd78543825262c3ec15094, type: 3}
+  m_Name: Clues
+  m_EditorClassIdentifier: 
+  victimLocationClues:
+  - location: 
+    lines:
+    - condition: 
+      line: I was at [var=Location] when I heard noises outside.
+  - location: 
+    lines:
+    - condition: 
+      line: On my way to [var=Location] I saw [var=NPC].
+  - location: 
+    lines:
+    - condition: 
+      line: I saw a person at [var=Location]
+  - location: 
+    lines:
+    - condition: 
+      line: I was at [var=Location] when I heard noises around the corner.
+  murderLocationClues:
+  - location: 
+    lines:
+    - condition: 
+      line: I can't find my [var=PersonalObject] anywhere.
+  - location: 
+    lines:
+    - condition: 
+      line: Someone was screaming close to [var=Location].
+  - location: 
+    lines:
+    - condition: 
+      line: I spotted [var=Observation] on my way to [var=Location].
+  - location: 
+    lines:
+    - condition: 
+      line: On my way to [var=Location] I saw [var=NPC].
+  personalItemClues:
+  - clueName: kitchen knife
+    cluePrefab: {fileID: 5340366066279895466, guid: 0b358392be99ae449b206b048e601415,
+      type: 3}
+    lines:
+    - condition: 
+      line: I found [var=PersonalObject] and was about to deliver it to [var=NPC].
+    - condition: 
+      line: That is [var=NPC]'s [var=PersonalObject].
+    owner: Frank Draydun
+  - clueName: empty bottle
+    cluePrefab: {fileID: 3873482536314012762, guid: 7ade63ca37758df4b9a5706f8b8829ee,
+      type: 3}
+    lines:
+    - condition: 
+      line: I found [var=PersonalObject] and was about to deliver it to [NPC].
+    - condition: 
+      line: That is [var=NPC]'s [var=PersonalObject]
+    owner: Bob
+  - clueName: notebook
+    cluePrefab: {fileID: 8224703696797748326, guid: 7516b95aced6cbd48a9cdea06794cce3,
+      type: 3}
+    lines:
+    - condition: 
+      line: I found [var=PersonalObject] and was about to deliver it to [var=NPC].
+    - condition: 
+      line: That is [var=NPC]'s [var=PersonalObject]
+    owner: 'Rasmus '
+  - clueName: ribbon
+    cluePrefab: {fileID: 7651278494688396952, guid: ba8f54b6082ffd84e930a618ab81878a,
+      type: 3}
+    lines:
+    - condition: 
+      line: I found [var=PersonalObject] and was about to deliver it to [var=NPC].
+    - condition: 
+      line: That is [var=NPC]'s [var=PersonalObject]
+    owner: Daisy
+  - clueName: pendant
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: I found [var=PersonalObject] and was about to deliver it to [var=NPC].
+    - condition: 
+      line: That is [var=NPC]'s [var=PersonalObject]
+    owner: 'Yara '
+  - clueName: business Card
+    cluePrefab: {fileID: 8949833457377280914, guid: f49fb6db62ebeda4f92a6b9b74bbce9e,
+      type: 3}
+    lines:
+    - condition: 
+      line: I found [var=PersonalObject] and was about to deliver it to [var=NPC].
+    - condition: 
+      line: That is [var=NPC]'s [var=PersonalObject]
+    owner: 'Lucifer '
+  - clueName: pocket watch
+    cluePrefab: {fileID: 672385284154391086, guid: 7ca202e1a0200d94480b166836f1c091,
+      type: 3}
+    lines:
+    - condition: 
+      line: I found [var=PersonalObject] and was about to deliver it to [var=NPC].
+    - condition: 
+      line: That is [var=NPC]'s [var=PersonalObject]
+    owner: 'Richard '
+  - clueName: pen
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: I found [var=PersonalObject] and was about to deliver it to [var=NPC].
+    - condition: 
+      line: That is [var=NPC]'s [var=PersonalObject]
+    owner: 'Kristoffer '
+  - clueName: kerchief
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: I found [var=PersonalObject] and was about to deliver it to [var=NPC].
+    - condition: 
+      line: That is [var=NPC]'s [var=PersonalObject]
+    owner: 'Scarlett '
+  - clueName: whiskey glass
+    cluePrefab: {fileID: 4052841029898597327, guid: de747c1d3167df049935d671d0ff20f3,
+      type: 3}
+    lines:
+    - condition: 
+      line: I found [var=PersonalObject] and was about to deliver it to [var=NPC].
+    - condition: 
+      line: That is [var=NPC]'s [var=PersonalObject]
+    owner: Wilhelm Eastwood
+  - clueName: dress shoe
+    cluePrefab: {fileID: 5030758558578605556, guid: 883cb6ca82bc83a489565db1718e0cd3,
+      type: 3}
+    lines:
+    - condition: 
+      line: I found [var=PersonalObject] and was about to deliver it to [var=NPC].
+    - condition: 
+      line: That is [var=NPC]'s [var=PersonalObject]
+    owner: '[var=NPC]'
+  - clueName: shoes
+    cluePrefab: {fileID: 3283379966111066322, guid: af4a8cd364902ee4d984fa778b6c7612,
+      type: 3}
+    lines:
+    - condition: 
+      line: I found [var=PersonalObject] and was about to deliver it to [var=NPC].
+    - condition: 
+      line: That is [var=NPC]'s [var=PersonalObject]
+    owner: '[var=NPC]'
+  objectFoundOnLocationClues:
+  - clueName: damaged note
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: This note mention [var=Location]
+  - clueName: broken chair
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: Something heavy fell on this
+  - clueName: fur
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: This trail leads to [var=Location]
+  - clueName: full moon figure
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: Some kind of full moon
+  - clueName: pistol
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: Somone have recently used this
+  - clueName: trophy
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: The [var=PersonalObject] belongs to [var=NPC]
+  - clueName: bullet shell
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: They are still hot
+  - clueName: bloodsplatter
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: The trail is leading to [var=Location]
+  - clueName: dead person
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: That must be [var=NPC]
+  observationClues:
+  - clueName: footprints
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: The person ran towards [var=Location].
+  - clueName: sign of struggle
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: I was at [var=Location] when something fell on me.
+  - clueName: claw marks
+    cluePrefab: {fileID: 100000, guid: 1c6c8d5493164a54d9001ec61b1e9c49, type: 3}
+    lines:
+    - condition: 
+      line: 'I was unlucky and managed to cut myself, no big deal '
+  - clueName: wound
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: I was at [var=Location] when something fell on me.
+    - condition: 
+      line: 'I was unlucky and managed to cut myself, no big deal '
+  - clueName: 'person running '
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: The person ran towards [var=Location].
+  - clueName: shadowy figure
+    cluePrefab: {fileID: 0}
+    lines:
+    - condition: 
+      line: The person ran towards [var=Location].
